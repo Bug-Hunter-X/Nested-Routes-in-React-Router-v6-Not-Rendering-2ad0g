@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with nested routes in React Router v6.  The problem is that the nested route '/contact/email' does not render when accessed directly, even though it is correctly defined. The solution shows how to fix this using the `useLocation` hook to correctly handle nested route params.
